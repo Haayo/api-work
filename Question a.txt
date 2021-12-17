@@ -1,0 +1,24 @@
+<?php
+function sanitizer($array,$split_string=",",$array_type=false){
+
+    $company=array[0];
+    $amounts= array[1];
+    $value = -1,-700;
+
+
+     foreach($amounts as $array){
+     $string="archeNlandLimtded";
+     $int_value=intval($string);
+     echo $int_value;
+     }
+     $str = str_replace('$', '', $str);{
+     $str = trim($str, $);
+     }
+     if ($value < 0) {
+         $value = $value = -1;
+     }
+
+    }
+    }
+    $input1 =["archeNland Limtded",["E100",'-1','200','300','-700','678']];
+    sanitizer($input1);
